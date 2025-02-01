@@ -17,7 +17,7 @@ Utilisez les flèches haut et bas pour naviguer dans le menu et appuyez sur Entr
 - Générer un mot de passe
 
 ## Dépendances
-github.com/common-nighthawk/go-figure
-github.com/nsf/termbox-go
-github.com/mattn/go-runewidth
+- github.com/common-nighthawk/go-figure
+- github.com/nsf/termbox-go
+- github.com/mattn/go-runewidth
 
