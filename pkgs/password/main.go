@@ -1,18 +1,13 @@
-package bot
+package password
 
 import (
 	"crypto/rand"
-	"fmt"
 	"math/big"
 )
 
 const passwordChars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+"
 
-func GeneratePassword(length int) (string, error) {
-	if length <= 0 {
-		return "", fmt.Errorf("la longueur doit être supérieure à 0")
-	}
-
+func New(length uint) (string, error) {
 	// Créer un tableau de bytes de la longueur spécifiée
 	password := make([]byte, length)
 	// Itérer sur chaque élément du tableau

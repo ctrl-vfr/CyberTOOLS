@@ -1,4 +1,4 @@
-module chat_bot
+module github.com/ctrl-vfr/CyberTOOLS
 
 go 1.23.4
 
